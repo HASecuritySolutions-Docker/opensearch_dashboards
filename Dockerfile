@@ -10,4 +10,7 @@ USER opensearch-dashboards
 
 RUN bin/opensearch-dashboards-plugin remove indexManagementDashboards && \
     bin/opensearch-dashboards-plugin remove queryWorkbenchDashboards && \
-    bin/opensearch-dashboards-plugin remove anomalyDetectionDashboards
+    bin/opensearch-dashboards-plugin remove anomalyDetectionDashboards && \
+    bin/opensearch-dashboards-plugin remove observabilityDashboards && \
+    bin/opensearch-dashboards-plugin remove alertingDashboards && \
+    bin/opensearch-dashboards-plugin remove notificationsDashboards
