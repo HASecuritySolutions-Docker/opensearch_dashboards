@@ -13,6 +13,4 @@ RUN bin/opensearch-dashboards-plugin remove indexManagementDashboards && \
     bin/opensearch-dashboards-plugin remove anomalyDetectionDashboards && \
     bin/opensearch-dashboards-plugin remove observabilityDashboards && \
     bin/opensearch-dashboards-plugin remove alertingDashboards && \
-    bin/opensearch-dashboards-plugin remove notificationsDashboards && \
-    bin/opensearch-dashboards-plugin remove securityAnalyticsDashboards && \
-    bin/opensearch-dashboards-plugin remove securityDashboards
+    bin/opensearch-dashboards-plugin remove notificationsDashboards
