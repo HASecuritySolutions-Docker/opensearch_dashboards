@@ -1,4 +1,4 @@
-FROM opensearchproject/opensearch-dashboards:2.14.0
+FROM opensearchproject/opensearch-dashboards:2.15.0
 
 MAINTAINER Justin Henderson justin@hasecuritysolutions.com
 
