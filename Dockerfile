@@ -1,5 +1,4 @@
-FROM opensearchproject/opensearch-dashboards:2.17.1
-
+FROM opensearchproject/opensearch-dashboards:2.18.0
 MAINTAINER Justin Henderson justin@hasecuritysolutions.com
 
 USER root
